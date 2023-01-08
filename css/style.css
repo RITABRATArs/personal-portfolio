@@ -1,0 +1,78 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    /* border: 2px solid red; */
+}
+h1{
+    font-size: 50px;
+}
+.highlight{
+    color: orange;
+}
+header{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 90%;
+    margin-top: 10px;
+}
+.btn{
+    color: white;
+    background-image: linear-gradient(orange,tomato);
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.btn :hover{
+    color: black;
+    background-color: yellow;
+}
+.top-banner{
+     background-image: url(../images/tb.png);
+    background-repeat: no-repeat; 
+}
+.dream-big{
+    margin-top: 100px;
+    display: flex;
+    padding-right: 8%;
+    /* border: 2px solid red; */
+    background-image: url(../images/db.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience{
+    background-image: url(../images/eb.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.flexible-container{
+    display: flex;
+    /* border: 2px solid red; */
+}
+.experience-items{
+    width: 40%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px grey;
+}
+#full-stack-developer{
+    border-left: 7px solid orange;
+}
+#baby-web-developer{
+    border-left: 7px solid blue;
+}
+footer p{
+    text-align: center;
+    margin-top: 50px;
+    color: grey;
+}
